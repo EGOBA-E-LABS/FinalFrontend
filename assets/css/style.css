@@ -1,0 +1,160 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.custom-select{
+  border-color: white;
+  border: none;
+}
+
+.centered {
+	  position: absolute;
+    top: 68%;
+    left: 0%;
+    background-color: #EF5B5B;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+    width: 100%;
+    padding-top: 10%;
+    padding-left: 5%;
+    height: 32%;
+    text-align: left;
+    padding-bottom: 280px;
+}
+
+.text h1{
+	font-size: 2.5em;
+}
+
+.text{
+	margin-bottom: 40px;
+}
+
+.btn-text{
+  padding-top: 8px;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.carousel .carousel-indicators li {
+  background-color: #fff;
+  background-color: rgba(70, 70, 70, 0.25);
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.carousel .carousel-indicators .active {
+  background-color: #EF5B5B;
+}
+
+.carousel-indicators{
+  bottom: -2.4375rem;
+  top: 85%;
+}
+
+#cahead{
+   position: absolute;
+   left: 0%;
+   padding-top: 10px;
+   padding-bottom: 20px;
+}
+
+.carousel-caption h5{
+  color: #EF5B5B;
+  font-size: 2em;
+}
+
+.carousel-caption p{
+  color: #8A8A8F;
+}
+
+.carousel-caption{
+  top: 65%;
+}
+
+.btn-pink{
+  background-color: #EF5B5B;
+  border-radius: 25px;
+  border-color: #707070;
+  border-width: 1px;
+  color: white;
+}
+
+.btn-grey{
+  background-color: #D3D3D3;
+  border-radius: 25px;
+  border-color: #707070;
+  border-width: 1px;
+  color: #000000;
+}
+
+.btn i{
+  padding-right: 15px;
+}
+
+#cahead a {
+   color: #EF5B5B;
+   text-decoration: none;
+   font-size: 1.2em;
+}
+
+#cahead a:hover{
+  color: #707070;
+}
+
+#loginform{
+  margin:20px;
+}
+
+#loginform h5{
+  margin-top:3vh;
+}
+
+#login-head a i{
+  color: #707070;
+}
+
+.header{
+  margin-bottom:10vh;
+}
+
+.header h5{
+  color: #EF5B5B;
+}
+
+.form-group input{
+  border-radius: 25px;
+}
+
+#login-footer{
+  position: absolute;
+  top: 92%;
+  left: 0%;
+}
+
+#login-footer p a{
+  color: #EF5B5B;
+  text-decoration: none;
+}
+
+p.fp{
+  margin-top: 10px;
+  margin-left: 15px;
+  color: #EF5B5B;
+}
+
+#login-form a{
+  text-decoration: none;
+}
+
+#tc-text{
+  margin-top: 20px;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+#tc-text a{
+  text-decoration: none;
+  color: #EF5B5B;
+}
