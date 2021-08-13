@@ -2,7 +2,7 @@
 include('header.php');
 ?>
 
- <div class="h-slider">
+        <div class="h-slider">
 
             <div class="owl-carousel owl-theme">
 

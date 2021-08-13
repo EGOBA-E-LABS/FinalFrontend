@@ -8,7 +8,7 @@
                 <a href="onboarding.php"><i class="fa fa-angle-left fa-2x"></i></a>
           </section>
 
-          <section class="title">
+          <section class="title mb-5">
             <div class="col col-md-12 col-sm-12 login-title">
                 <h5> Log in to</h5>
             </div>    
@@ -16,7 +16,7 @@
 
           <section class="form">
             <div class="col col-md-12 col-sm-12 login-form">
-            <form method="post">
+            <form method="post" action="home.php">
               <div class="form-group">
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
               </div>
