@@ -1,3 +1,6 @@
+:root{
+  --default-color: #EF5B5B;
+}
 body{
   font-family: 'Roboto', sans-serif;
   /*max-height: 100%;*/
@@ -33,7 +36,7 @@ main .content{
 	  position: absolute;
     top: 68%;
     left: 0%;
-    background-color: #EF5B5B;
+    background-color: var(--default-color);
     border-radius: 20px 20px 0px 0px;
     color: white;
     width: 100%;
@@ -67,7 +70,7 @@ main .content{
 }
 
 .carousel .carousel-indicators .active {
-  background-color: #EF5B5B;
+  background-color: var(--default-color);
 }
 
 .carousel-indicators{
@@ -83,7 +86,7 @@ main .content{
 }*/
 
 .carousel-caption h5{
-  color: #EF5B5B;
+  color: var(--default-color);
   font-size: 2em;
 }
 
@@ -102,7 +105,7 @@ main .content{
 }
 
 .btn-pink{
-  background-color: #EF5B5B;
+  background-color: var(--default-color);
   color: white;
 }
 
@@ -123,7 +126,7 @@ main .content{
 }
 
 .cahead a {
-   color: #EF5B5B;
+   color: var(--default-color);
    text-decoration: none;
    font-size: 1.2em;
 }
@@ -141,7 +144,7 @@ main .content{
 }
 
 .title h5{
-  color: #EF5B5B;
+  color: var(--default-color);
 }
 
 .form-group input{
@@ -155,14 +158,14 @@ main .content{
 }
 
 .login-footer p a{
-  color: #EF5B5B;
+  color: var(--default-color);
   text-decoration: none;
 }
 
 p.fp{
   margin-top: 10px;
   margin-left: 15px;
-  color: #EF5B5B;
+  color: var(--default-color);
 }
 
 .login-form a{
@@ -176,7 +179,7 @@ p.fp{
 
 .termsnconditions a{
   text-decoration: none;
-  color: #EF5B5B;
+  color: var(--default-color);
 }
 
 .buttons a button{

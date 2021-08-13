@@ -16,9 +16,10 @@
                   Discover the best foods from
                 </p>
               </div>
-              <a href="onboarding.php" class="btn btn-white">  
+              <a href="onboarding.php" class="btn btn-white border-0">  
                 Get Started
               </a>
+              #EF5B5B
             </div>
           </div>
         </div>
