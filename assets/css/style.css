@@ -12,10 +12,17 @@ main .content{
 .main-content{
   height: 100vh;
 }
-
+.text-colored{
+  color: var(--default-color);
+}
+.img-carousel-main{
+  height: 72vh;
+  width: 100%;
+  object-fit: contain;
+}
 .carsoual-main{
-  position: relative;
-  top: -3em;
+  /*position: relative;*/
+  /*top: -3em;*/
   z-index: 20;
 }
 
@@ -74,8 +81,8 @@ main .content{
 }
 
 .carousel-indicators{
-  bottom: -2.4375rem;
-  top: 85%;
+  bottom: 1vh;
+  /*top: 85%;*/
 }
 
 /*.cahead{
@@ -96,6 +103,7 @@ main .content{
 
 .carousel-caption{
   top: 65%;
+  bottom: initial;
 }
 
 .btn{
@@ -121,9 +129,9 @@ main .content{
   color: #000000;
 }
 
-.btn i{
+/*.btn i{
   padding-right: 15px;
-}
+}*/
 
 .cahead a {
    color: var(--default-color);
