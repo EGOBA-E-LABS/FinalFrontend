@@ -2,22 +2,20 @@
   include('header.php');
 ?>
 
-        <div id="loginform">
+        <div class="hmform">
 
-          <div class="row">
-            <div class="col" id="login-head">
+          <section class="back-cta">
                 <a href="onboarding.php"><i class="fa fa-angle-left fa-2x"></i></a>
-            </div>
-          </div>
+          </section>
 
-          <div class="row header">
-            <div class="col col-md-12 col-sm-12" id="login-title">
+          <section class="title">
+            <div class="col col-md-12 col-sm-12 login-title">
                 <h5> Log in to</h5>
             </div>    
-          </div>
+          </section>
 
-          <div class="row">
-            <div class="col col-md-12 col-sm-12" id="login-form">
+          <section class="form">
+            <div class="col col-md-12 col-sm-12 login-form">
             <form method="post">
               <div class="form-group">
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
@@ -29,15 +27,15 @@
               <button type="submit" class="btn btn-pink btn-block">Log in</button>
             </form>
             </div>
-          </div>  
+          </section>  
 
-          <div class="row">
-            <div class="col col-md-12 col-sm-12" id="login-footer">
+          <section class="bottom-cta">
+            <div class="col col-md-12 col-sm-12 login-footer">
               <p class="text-center">
                 Don't have an account?  <a href="registration.php">Sign up</a>
               </p>
             </div>
-          </div>
+          </section>
 
           </div>
 

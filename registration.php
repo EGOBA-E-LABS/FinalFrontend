@@ -2,22 +2,20 @@
   include('header.php');
 ?>
 
-        <div id="loginform">
+        <div class="hmform">
 
-          <div class="row">
-            <div class="col" id="login-head">
+          <section class="back-cta">
                 <a href="login.php"><i class="fa fa-angle-left fa-2x"></i></a>
-            </div>
-          </div>
+          </section>
 
-          <div class="row header">
-            <div class="col col-md-12 col-sm-12" id="login-title">
+          <section class="title">
+            <div class="col-md-12 col-sm-12 login-title">
                 <h5> Create your</h5>
             </div>    
-          </div>
+          </section>
 
-          <div class="row">
-            <div class="col col-md-12 col-sm-12" id="login-form">
+          <section class="form">
+            <div class="col col-md-12 col-sm-12 login-form">
             <form method="post">
               <div class="form-group">
                 <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username">
@@ -32,20 +30,19 @@
                 <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Phone">
               </div>
               <button type="submit" class="btn btn-pink btn-block">Sign up</button>
-              <p id="tc-text">By clicking Sign up you agree to our <a href="pwreset.php">Terms and Conditions </p></a>
+              <small id="passwordHelpBlock" class="termsnconditions form-text text-muted">By clicking Sign up you agree to our <a href="#">Terms and Conditions</a> </small>
+              
             </form>
             </div>
-          </div>  
+          </section>  
 
-          <div class="row">
-            <div class="col col-md-12 col-sm-12" id="login-footer">
+          <section class="bottom-cta">
+            <div class="col col-md-12 col-sm-12 login-footer">
               <p class="text-center">
                 Already an account?  <a href="login.php">Log in</a>
               </p>
             </div>
-          </div>
-
-          </div>
+          </section>
 
         </div>
 <?php

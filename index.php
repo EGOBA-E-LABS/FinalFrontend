@@ -3,10 +3,10 @@
 ?>
 
     <div class="card border-0 text-white">
-        <img src="assets/img/landing.png" class="card-img col col-md-3 col-sm-12 col-lg-3 col-xl-3 col-xxl-3" alt="...">
+        <img src="assets/img/landing.png" class="card-img col-md-3 col-sm-12" alt="...">
 
       <div class="card-img-overlay">
-        <div class="centered col col-md-3 col-sm-12 col-lg-3 col-xl-3 col-xxl-3">
+        <div class="centered col-md-3 col-sm-12">
             <div class="text">
               <h1>Happy Meals</h1>
                 <p>
@@ -14,9 +14,9 @@
                 </p>
             </div>
             <div class="text-xs-center">
-                  <a class="btn btn-light btn-sm rounded-pill" href="onboarding.php"> 
-                    <p class="btn-text">Get Started</p>
-                  </a>
+                <a href="onboarding.php">  
+                  <button class="btn btn-white">Get Started</button>
+                </a>
             </div>
         </div>
       </div>

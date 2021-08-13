@@ -1,11 +1,13 @@
 <?php
   include('header.php');
 ?>
-          <div class="col col-md-3 col-sm-12" id="cahead">
+          <div class="cahead col-md-3 col-sm-12">
 
               <a href="login.php"><p class="text-right">Log in</p></a>
 
               <!-- carousel -->
+          <section class="carousel">
+
               <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 
                 <ol class="carousel-indicators">
@@ -39,13 +41,14 @@
                 </div>
               </div>
               <!-- carousel -->
-          
+          </section>
 
           <!-- button -->
-
-          <button class="btn btn-pink btn-block">Create Account</button>
-          <button class="btn btn-grey btn-block"><i class="fa fa-facebook" aria-hidden="true"></i> Continue with Facebook</button>
-
+          <section class="buttons">
+              <a href="registration.php"><button class="btn btn-pink btn-block">Create Account</button></a>
+              <a href=""><button class="btn btn-grey btn-block"><i class="fa fa-facebook" aria-hidden="true"></i> Continue with Facebook</button></a>
+              <a href=""><button class="btn btn-grey btn-block"><i class="fa fa-google" aria-hidden="true"></i> Continue with Gmail</button></a>
+          </section>
           <!-- button -->
 
           </div>

@@ -53,7 +53,7 @@ body{
   top: 85%;
 }
 
-#cahead{
+.cahead{
    position: absolute;
    left: 0%;
    padding-top: 10px;
@@ -73,19 +73,26 @@ body{
   top: 65%;
 }
 
-.btn-pink{
-  background-color: #EF5B5B;
+.btn{
   border-radius: 25px;
   border-color: #707070;
   border-width: 1px;
+}
+
+.btn-pink{
+  background-color: #EF5B5B;
   color: white;
+}
+
+.btn-white{
+  background-color: #FFFFFF;
+  color: #000000;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .btn-grey{
   background-color: #D3D3D3;
-  border-radius: 25px;
-  border-color: #707070;
-  border-width: 1px;
   color: #000000;
 }
 
@@ -93,33 +100,29 @@ body{
   padding-right: 15px;
 }
 
-#cahead a {
+.cahead a {
    color: #EF5B5B;
    text-decoration: none;
    font-size: 1.2em;
 }
 
-#cahead a:hover{
-  color: #707070;
-}
-
-#loginform{
+.hmform{
   margin:20px;
 }
 
-#loginform h5{
+.hmform h5{
   margin-top:3vh;
 }
 
-#login-head a i{
+.back-cta a i{
   color: #707070;
 }
 
-.header{
+.title{
   margin-bottom:10vh;
 }
 
-.header h5{
+.title h5{
   color: #EF5B5B;
 }
 
@@ -127,13 +130,13 @@ body{
   border-radius: 25px;
 }
 
-#login-footer{
+.login-footer{
   position: absolute;
   top: 92%;
   left: 0%;
 }
 
-#login-footer p a{
+.login-footer p a{
   color: #EF5B5B;
   text-decoration: none;
 }
@@ -144,17 +147,25 @@ p.fp{
   color: #EF5B5B;
 }
 
-#login-form a{
+.login-form a{
   text-decoration: none;
 }
 
-#tc-text{
-  margin-top: 20px;
-  font-size: 0.8em;
+.termsnconditions{
   text-align: center;
+  margin-top: 20px;
 }
 
-#tc-text a{
+.termsnconditions a{
   text-decoration: none;
   color: #EF5B5B;
+}
+
+
+.h-slider{
+  margin: 20px;
+}
+
+.buttons a button{
+    margin-bottom: 10px;
 }
