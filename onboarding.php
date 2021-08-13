@@ -1,7 +1,7 @@
 <?php
   include('header.php');
 ?>
-          <div class="cahead col-md-3 col-sm-12">
+      <div class="cahead col-12 col-md-3 col-sm-12 mx-auto">
 
               <a href="login.php"><p class="text-right">Log in</p></a>
 
@@ -51,7 +51,7 @@
           </section>
           <!-- button -->
 
-          </div>
+      </div>
 
 <?php
   include('footer.php');

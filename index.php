@@ -2,11 +2,13 @@
   include('header.php');
 ?>
 
+  <div class="col-12 col-md-3 col-sm-12 mx-auto">
+
     <div class="card border-0 text-white">
-        <img src="assets/img/landing.png" class="card-img col-md-3 col-sm-12" alt="...">
+        <img src="assets/img/landing.png" class="card-img" alt="...">
 
       <div class="card-img-overlay">
-        <div class="centered col-md-3 col-sm-12">
+        <div class="centered">
             <div class="text">
               <h1>Happy Meals</h1>
                 <p>
@@ -21,6 +23,8 @@
         </div>
       </div>
     </div>
+
+  </div>
 
 <?php
   include('footer.php');
