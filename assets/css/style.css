@@ -1,12 +1,28 @@
 body{
   font-family: 'Roboto', sans-serif;
+  max-height: 100%;
+}
+
+main .content{
+  height: 100vh;
+}
+.main-content{
+  height: 100vh;
+}
+
+.carsoual-main{
+  position: relative;
+  top: -3em;
+  z-index: 20;
 }
 
 .custom-select{
   border-color: white;
   border: none;
 }
-
+.img-start-bg{
+  height: 100vh;
+}
 .new{
   margin-left: auto;
   margin-right: auto;
@@ -24,7 +40,7 @@ body{
     padding-left: 5%;
     height: 32%;
     text-align: left;
-    padding-bottom: 280px;
+    /*padding-bottom: 280px;*/
 }
 
 .text h1{
