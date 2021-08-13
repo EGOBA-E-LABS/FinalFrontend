@@ -22,6 +22,7 @@ main .content{
 }
 .img-start-bg{
   height: 100vh;
+  object-fit: contain;
 }
 .new{
   margin-left: auto;

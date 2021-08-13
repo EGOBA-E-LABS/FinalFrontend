@@ -2,7 +2,7 @@
   include('header.php');
 ?>
 <main class="content">
-  <div class="main-content col-12 col-md-3 col-sm-12 mx-auto">
+  <div class="main-content col-12 col-md-3 col-sm-12 mx-auto p-0">
     <div class="card border-0 text-white">
       <img src="assets/img/landing.png" class="card-img img-start-bg" alt="...">
 

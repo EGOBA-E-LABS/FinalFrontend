@@ -26,7 +26,7 @@
             </div>
           </div>
           <div class="carousel-item" data-interval="3000">
-            <img src="assets/img/c2.png" class="img-fluid" alt="...">
+            <img src="assets/img/c2.png" class="img-fluid " alt="...">
             <div class="carousel-caption d-md-block">
               <h5>Fast Delivery</h5>
               <p>Fast delivery to your home, office and wherever you are.</p>
