@@ -139,10 +139,6 @@ main .content{
   color: #707070;
 }
 
-.title{
-  margin-bottom:10vh;
-}
-
 .title h5{
   color: #EF5B5B;
 }
@@ -182,11 +178,33 @@ p.fp{
   color: #EF5B5B;
 }
 
-
-.h-slider{
-  margin: 20px;
-}
-
 .buttons a button{
     margin-bottom: 10px;
 }
+
+.searchbar{
+  border-radius: 0px 25px 25px 0px;
+  border: none;
+  background-color: #F9F9F9;
+}
+
+.searchbtn{
+  border-radius: 25px 0px 0px 25px;
+  border: none;
+  background-color: #F9F9F9;
+}
+
+input:focus, textarea:focus, select:focus{
+        outline: none;
+}
+
+.card-btn{
+  border-radius: 23px;
+  background-color: white;
+  position: relative;
+  left: 67%;
+  bottom: 170px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+

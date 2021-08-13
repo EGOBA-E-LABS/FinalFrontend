@@ -8,7 +8,7 @@
                 <a href="login.php"><i class="fa fa-angle-left fa-2x"></i></a>
           </section>
 
-          <section class="title">
+          <section class="title mb-5">
             <div class="col-md-12 col-sm-12 login-title">
                 <h5> Create your</h5>
             </div>    
