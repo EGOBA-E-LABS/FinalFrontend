@@ -2,49 +2,42 @@
   include('header.php');
 ?>
 
-        <div class="hmform">
+<main class="content">
+  <div class="row m-0 p-2">
 
-          <section class="back-cta">
-                <a href="login.php"><i class="fa fa-angle-left fa-2x"></i></a>
-          </section>
+    <div class="back-cta col-12 col-md-12 pt-2 pb-3">
+      <a href="onboarding.php"><i class="fas fa-angle-left fa-2x"></i></a>
+    </div>
 
-          <section class="title mb-5">
-            <div class="col-md-12 col-sm-12 login-title">
-                <h5> Create your</h5>
-            </div>    
-          </section>
+    <div class="text-colored col-12 col-md-12 pb-5 px-4">
+      <h4> Create your</h4>
+    </div>   
 
-          <section class="form">
-            <div class="col col-md-12 col-sm-12 login-form">
-            <form method="post">
-              <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username">
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-              </div>
-              <div class="form-group">
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Phone">
-              </div>
-              <button type="submit" class="btn btn-pink btn-block">Sign up</button>
-              <small id="passwordHelpBlock" class="termsnconditions form-text text-muted">By clicking Sign up you agree to our <a href="#">Terms and Conditions</a> </small>
-              
-            </form>
-            </div>
-          </section>  
-
-          <section class="bottom-cta">
-            <div class="col col-md-12 col-sm-12 login-footer">
-              <p class="text-center">
-                Already an account?  <a href="login.php">Log in</a>
-              </p>
-            </div>
-          </section>
-
+    <div class="col-12 col-md-12 px-4">
+      <form method="post" action="login.php">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Username">
         </div>
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <input type="password" class="form-control" placeholder="Password">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Phone">
+        </div>
+        <button type="submit" class="btn btn-pink btn-block">Sign up</button>
+        <small id="passwordHelpBlock" class="termsnconditions form-text text-muted">By clicking Sign up you agree to our <a href="#">Terms and Conditions</a> </small>      
+      </form>
+    </div>
+     
+    <div class="col-12 col-md-12 p-0 m-0 form-footer">
+      Already have an account? <a href="login.php">Log in</a>
+    </div>
+  </div>
+</main>
+
 <?php
   include('footer.php');
 ?>

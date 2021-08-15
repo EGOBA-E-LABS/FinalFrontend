@@ -1,12 +1,13 @@
 <?php
   include('header.php');
 ?>
+
 <main class="content">
   <div class="main-content">
     <div class="row m-0">
       <div class="col-12 col-md-3 col-sm-12 mx-auto p-0">
         <div class="card border-0 text-white">
-          <img src="assets/img/landing.png" class="card-img img-start-bg" alt="...">
+          <img src="assets/img/landing.png" class="card-img img-start-bg" alt="landing page image">
 
           <div class="card-img-overlay">
             <div class="centered">
@@ -15,8 +16,8 @@
                 <p>
                   Discover the best foods from
                 </p>
-              </div> 
-              <a href="onboarding.php" class="btn btn-white border-0">  
+              </div>
+              <a href="onboarding.php" class="btn btn-white border-0 px-5">  
                 Get Started
               </a>
             </div>

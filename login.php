@@ -2,42 +2,36 @@
   include('header.php');
 ?>
 
-        <div class="hmform">
+<main class="content">
+  <div class="row m-0 p-2">
+  
+    <div class="back-cta col-12 col-md-12 pt-2 pb-3">
+      <a href="onboarding.php"><i class="fas fa-angle-left fa-2x"></i></a>
+    </div>
 
-          <section class="back-cta">
-                <a href="onboarding.php"><i class="fa fa-angle-left fa-2x"></i></a>
-          </section>
+    <div class="text-colored col-12 col-md-12 pb-5 px-4">
+      <h4> Log in to</h4>
+    </div>    
 
-          <section class="title mb-5">
-            <div class="col col-md-12 col-sm-12 login-title">
-                <h5> Log in to</h5>
-            </div>    
-          </section>
+    <div class="col-12 col-md-12 px-4">
+      <form method="post" action="home.php">
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <input type="password" class="form-control" placeholder="Password">
+        </div>
+        <a href="pwreset.php"><p class="fp"> Forgot Password? </p></a>
+        <button type="submit" class="btn btn-pink btn-block">Log in</button>
+      </form>
+    </div>
 
-          <section class="form">
-            <div class="col col-md-12 col-sm-12 login-form">
-            <form method="post" action="home.php">
-              <div class="form-group">
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-              </div>
-              <div class="form-group">
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-              </div>
-              <a href="pwreset.php"><p class="fp"> Forgot Password? </p></a>
-              <button type="submit" class="btn btn-pink btn-block">Log in</button>
-            </form>
-            </div>
-          </section>  
+    <div class="col-12 col-md-12 p-0 m-0 form-footer">
+      Don't have an account? <a href="registration.php">Sign up</a>
+    </div>
 
-          <section class="bottom-cta">
-            <div class="col col-md-12 col-sm-12 login-footer">
-              <p class="text-center">
-                Don't have an account?  <a href="registration.php">Sign up</a>
-              </p>
-            </div>
-          </section>
-
-          </div>
+  </div>
+</main>
           
 <?php
   include('footer.php');

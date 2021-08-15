@@ -1,32 +1,31 @@
 :root{
   --default-color: #EF5B5B;
-  --default-color-light: #EF5B5Be0;
-}
-body{
-  font-family: 'Roboto', sans-serif;
-  /*max-height: 100%;*/
+  --
 }
 
-main.content{
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+main .content{
   height: 100vh;
 }
+
 .main-content{
   height: 100vh;
 }
+
 .text-colored{
   color: var(--default-color);
 }
-a.text-colored:hover{
-  color: var(--default-color-light);
-}
+
 .img-carousel-main{
   height: 72vh;
   width: 100%;
   object-fit: contain;
 }
+
 .carsoual-main{
-  /*position: relative;*/
-  /*top: -3em;*/
   z-index: 20;
 }
 
@@ -34,17 +33,14 @@ a.text-colored:hover{
   border-color: white;
   border: none;
 }
+
 .img-start-bg{
   height: 100vh;
   object-fit: contain;
 }
-.new{
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .centered {
-    position: absolute;
+	  position: absolute;
     top: 68%;
     left: 0%;
     background-color: var(--default-color);
@@ -55,21 +51,6 @@ a.text-colored:hover{
     padding-left: 5%;
     height: 32%;
     text-align: left;
-    /*padding-bottom: 280px;*/
-}
-
-.text h1{
-  font-size: 2.5em;
-}
-
-/*.text{
-  margin-bottom: 40px;
-}*/
-
-.btn-text{
-  padding-top: 8px;
-  padding-right: 35px;
-  padding-left: 35px;
 }
 
 .carousel .carousel-indicators li {
@@ -86,23 +67,11 @@ a.text-colored:hover{
 
 .carousel-indicators{
   bottom: 1vh;
-  /*top: 85%;*/
 }
-
-/*.cahead{
-   position: absolute;
-   left: 0%;
-   padding-top: 10px;
-   padding-bottom: 20px;
-}*/
 
 .carousel-caption h5{
   color: var(--default-color);
   font-size: 2em;
-}
-
-.carousel-caption p{
-  color: #8A8A8F;
 }
 
 .carousel-caption{
@@ -124,8 +93,6 @@ a.text-colored:hover{
 .btn-white{
   background-color: #FFFFFF;
   color: #000000;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 
 .btn-grey{
@@ -133,81 +100,24 @@ a.text-colored:hover{
   color: #000000;
 }
 
-/*.btn i{
-  padding-right: 15px;
-}*/
-
-.cahead a {
-   color: var(--default-color);
-   text-decoration: none;
-   font-size: 1.2em;
-}
-
-.hmform{
-  margin:20px;
-}
-
-.hmform h5{
-  margin-top:3vh;
-}
-
-.back-cta a i{
-  color: #707070;
-}
-
-.title h5{
-  color: var(--default-color);
-}
-
 .form-group input{
   border-radius: 25px;
 }
 
-.login-footer{
+.form-footer{
+  text-align: center;
   position: absolute;
-  top: 92%;
+  bottom: 5%;
   left: 0%;
 }
 
-.login-footer p a{
-  color: var(--default-color);
-  text-decoration: none;
-}
-
-p.fp{
-  margin-top: 10px;
-  margin-left: 15px;
-  color: var(--default-color);
-}
-
-.login-form a{
-  text-decoration: none;
-}
-
-.termsnconditions{
-  text-align: center;
-  margin-top: 20px;
-}
-
-.termsnconditions a{
+a{
   text-decoration: none;
   color: var(--default-color);
 }
 
-.buttons a button{
-    margin-bottom: 10px;
-}
-
-.searchbar{
-  border-radius: 0px 25px 25px 0px;
-  border: none;
-  background-color: #F9F9F9;
-}
-
-.searchbtn{
-  border-radius: 25px 0px 0px 25px;
-  border: none;
-  background-color: #F9F9F9;
+a:hover{
+  text-decoration: none;
 }
 
 input:focus, textarea:focus, select:focus{
@@ -224,3 +134,14 @@ input:focus, textarea:focus, select:focus{
   padding-right: 0px;
 }
 
+.searchbar{
+  border-radius: 0px 25px 25px 0px;
+  border: none;
+  background-color: #F9F9F9;
+}
+
+.searchbtn{
+  border-radius: 25px 0px 0px 25px;
+  border: none;
+  background-color: #F9F9F9;
+}
