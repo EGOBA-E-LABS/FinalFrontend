@@ -1,12 +1,13 @@
 :root{
   --default-color: #EF5B5B;
+  --default-color-light: #EF5B5Be0;
 }
 body{
   font-family: 'Roboto', sans-serif;
   /*max-height: 100%;*/
 }
 
-main .content{
+main.content{
   height: 100vh;
 }
 .main-content{
@@ -14,6 +15,9 @@ main .content{
 }
 .text-colored{
   color: var(--default-color);
+}
+a.text-colored:hover{
+  color: var(--default-color-light);
 }
 .img-carousel-main{
   height: 72vh;
@@ -40,7 +44,7 @@ main .content{
 }
 
 .centered {
-	  position: absolute;
+    position: absolute;
     top: 68%;
     left: 0%;
     background-color: var(--default-color);
@@ -55,11 +59,11 @@ main .content{
 }
 
 .text h1{
-	font-size: 2.5em;
+  font-size: 2.5em;
 }
 
 /*.text{
-	margin-bottom: 40px;
+  margin-bottom: 40px;
 }*/
 
 .btn-text{
