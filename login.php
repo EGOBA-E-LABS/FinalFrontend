@@ -19,9 +19,13 @@
           <input type="email" class="form-control" placeholder="Email">
         </div>
         <div class="form-group">
-          <input type="password" class="form-control" placeholder="Password">
+          <div class="input-group">
+            <input type="password" class="form-control password" placeholder="Password">
+            <div class="input-group-append">
+              <a href="pwreset.php" class="input-group-text bg-transparent border-left-0 text-colored forgot-pass">Forgot?</a>
+            </div>
+          </div>
         </div>
-        <a href="pwreset.php"><p class="fp"> Forgot Password? </p></a>
         <button type="submit" class="btn btn-pink btn-block">Log in</button>
       </form>
     </div>

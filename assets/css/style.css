@@ -100,8 +100,17 @@ main .content{
   color: #000000;
 }
 
-.form-group input{
+.form-control{
   border-radius: 25px;
+}
+
+.forgot-pass{
+  border-radius: 0 25px 25px 0;
+  border-left: none;
+}
+
+.password{
+  border-right: none;
 }
 
 .form-footer{
@@ -124,24 +133,53 @@ input:focus, textarea:focus, select:focus{
         outline: none;
 }
 
-.card-btn{
-  border-radius: 23px;
+.search-icon{
+  border-radius: 25px;
   background-color: white;
-  position: relative;
-  left: 67%;
-  bottom: 170px;
-  padding-left: 0px;
-  padding-right: 0px;
+  border-right: none;
 }
 
-.searchbar{
-  border-radius: 0px 25px 25px 0px;
-  border: none;
-  background-color: #F9F9F9;
+.search-bar{
+  border-left: none;
 }
 
-.searchbtn{
-  border-radius: 25px 0px 0px 25px;
-  border: none;
-  background-color: #F9F9F9;
+.home-card{
+  border-style: none;
+}
+
+.btn-time{
+  background-color: white;
+  border-color: #707070;
+}
+
+.bottom-nav{
+  background-color: white;
+  height: 10vh;
+  border-top: 1px solid #707070;
+}
+
+.bottom-nav a{
+  color: #707070;
+}
+
+.bottom-nav .active{
+  color: var(--default-color);
+}
+
+.img-container-small{
+  background-color: #FAF0E6;
+  border-radius: 25px;
+  width: 100px;
+  height: 100px;
+}
+
+.img-container-small img{
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.home-card img{
+  height: 200px;
+  border-radius: 25px;
+  border: 1px solid #707070;
 }

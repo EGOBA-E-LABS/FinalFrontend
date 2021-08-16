@@ -9,18 +9,18 @@
     <script>
         $('.owl-carousel').owlCarousel({
             loop: true,
-            margin: 20,
+            margin: 5,
             nav: false,
             dots: false,
             responsive: {
                 0: {
-                    items: 3.5
+                    items: 3.1
                 },
                 600: {
-                    items: 2
+                    items: 6.5
                 },
                 1000: {
-                    items: 7
+                    items: 8.5
                 }
             }
         })
