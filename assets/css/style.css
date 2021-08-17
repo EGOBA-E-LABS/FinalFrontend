@@ -130,6 +130,10 @@ input:focus, textarea:focus, select:focus{
         outline: none;
 }
 
+.back-cta a i{
+  color: #707070;
+}
+
 .search-icon{
   border-radius: 25px;
   background-color: white;
