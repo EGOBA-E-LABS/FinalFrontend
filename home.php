@@ -213,7 +213,7 @@
             </a>
         </div>
         <div class="col-4 col-md-4 mx-auto px-auto text-center">
-            <a href="home.php">
+            <a href="account.php">
                 <div class="row"> 
                     <i class="fas fa-user mx-auto"></i>
                 </div>

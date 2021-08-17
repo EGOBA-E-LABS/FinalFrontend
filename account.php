@@ -2,210 +2,171 @@
   include('header.php');
 ?>
 
-<main class="account ">
-        <!-- first section -->
-        <div class="mainprofile row m-0">
-            <div class="col-3 col-md-1 img-container-pp m-2">
-                <img src="assets/img/profileimg.png"   alt="">
+<main class="content">
 
+<!-- title section -->
+    <div class="row m-0 p-0 pt-3 account-header">  
+        <div class="col-3 col-md-2 py-4 pr-5 pl-4">
+            <div class="img-container-pp">
+                <img src="assets/img/landing.png" alt="">
             </div>
-            <div class="col-8 col-md-10 p-3 ml-md-5 pl-4">
-                <div class="media">
-                    
-                    <div class="media-body">
-                      <h5 class="mt-0"><strong>Kelly  Chan</strong></h5>
-                      <p class="text-muted">kellych@gmail.com</p>
-                    </div>
-                  
-                </div>
-            </div>
-        </div>
+        </div> 
+        <div class="col-9 col-md-10 my-auto pl-5">
+            <h5>Kelly Ch</h5>
+            <p class="text-muted">kelly@gmail.com</p>
+        </div>       
+    </div>
+<!-- title section -->
 
-        <!-- accordian section -->
-        <div class=" accordiansection row m-0 mt-3 mb-5 pb-5">
-            <div class="col">
+<!-- accordion -->
+    <div class="row m-0 p-0">
+        <div class="col-12 col-md-12">  
+            <div class="accordion" id="profileaccordion">
+                <div class="card">
 
-                <div class="accordion" id="accordionexample">
-                    <!-- profile -->
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="row">
-
-                                <div class="col-10" data-toggle="collapse" data-target=".collapseone">
-                                    profile 
-                                </div>
-                                <div class="col-2" data-toggle="collapse" data-target=".collapseone">
-                                    <i class="fas fa-angle-right pl-3 "></i>
-                                </div>
+                    <!-- Profile -->
+                    <div class="card-header">
+                        <div class="d-flex">
+                            <div class="flex-grow-1" data-toggle="collapse" data-target=".collapseprofile">
+                                Profile 
                             </div>
-
-                            <div  class="collapse collapseone mt-3" data-parent="#accordionexample">
+                            <div class="icon" data-toggle="collapse" data-target=".collapseprofile">
+                                <i class="fas fa-angle-right pl-3 "></i>
+                            </div>
+                        </div>
+                            <div class="collapse collapseprofile mt-3" data-parent="#profileaccordion">
                                 <div class="card card-body">
                                     <h5>Profile</h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro enim laudantium facere ipsum veniam quibusdam perspiciatis cum eius rerum atque.
                                 </div>
                             </div>
-
-                        </div>
                     </div>
-
-                    <!-- payment method -->
-                    
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="row">
-
-                                <div class="col-10" data-toggle="collapse" data-target=".collapse2">
-                                    payment method
-                                </div>
-                                <div class="col-2" data-toggle="collapse" data-target=".collapse2">
-                                    <i class="fas fa-angle-right pl-3 "></i>
-                                </div>
+                    <!-- Profile -->
+                    <!-- Payment Method -->
+                    <div class="card-header">
+                        <div class="d-flex">
+                            <div class="flex-grow-1" data-toggle="collapse" data-target=".collapsepayment">
+                                Payment Method 
                             </div>
-
-                            <div  class="collapse collapse2 mt-3" data-parent="#accordionexample">
+                            <div class="icon" data-toggle="collapse" data-target=".collapsepayment">
+                                <i class="fas fa-angle-right pl-3 "></i>
+                            </div>
+                        </div>
+                            <div class="collapse collapsepayment mt-3" data-parent="#profileaccordion">
                                 <div class="card card-body">
-                                    <h5>Payment method</h5> ipsum dolor sit amet consectetur adipisicing elit. Porro enim laudantium facere ipsum veniam quibusdam perspiciatis cum eius rerum atque.
+                                    <h5>Payment Method</h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro enim laudantium facere ipsum veniam quibusdam perspiciatis cum eius rerum atque.
                                 </div>
                             </div>
-
-                        </div>
                     </div>
-
-                    <!-- order history -->
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="row">
-
-                                <div class="col-10" data-toggle="collapse" data-target=".collapse3">
-                                    Order History
-                                </div>
-                                <div class="col-2" data-toggle="collapse" data-target=".collapse3">
-                                    <i class="fas fa-angle-right pl-3 "></i>
-                                </div>
+                    <!-- Payment Method -->
+                    <!-- Order History -->
+                    <div class="card-header">
+                        <div class="d-flex">
+                            <div class="flex-grow-1" data-toggle="collapse" data-target=".collapseorderh">
+                                Order History 
                             </div>
-
-                            <div  class="collapse collapse3 mt-3" data-parent="#accordionexample">
+                            <div class="icon" data-toggle="collapse" data-target=".collapseorderh">
+                                <i class="fas fa-angle-right pl-3 "></i>
+                            </div>
+                        </div>
+                            <div class="collapse collapseorderh mt-3" data-parent="#profileaccordion">
                                 <div class="card card-body">
-                                    <h5>Order History</h5> ipsum dolor sit amet consectetur adipisicing elit. Porro enim laudantium facere ipsum veniam quibusdam perspiciatis cum eius rerum atque.
+                                    <h5>Order History</h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro enim laudantium facere ipsum veniam quibusdam perspiciatis cum eius rerum atque.
                                 </div>
                             </div>
-
-                        </div>
                     </div>
-
+                    <!-- Order History -->
                     <!-- Delivery Address -->
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="row">
-
-                                <div class="col-10" data-toggle="collapse" data-target=".collapse4">
-                                    Delivery Address
-                                </div>
-                                <div class="col-2" data-toggle="collapse" data-target=".collapse4">
-                                    <i class="fas fa-angle-right pl-3 "></i>
-                                </div>
+                    <div class="card-header">
+                        <div class="d-flex">
+                            <div class="flex-grow-1" data-toggle="collapse" data-target=".collapsedeliveryadd">
+                                Delivery Address
                             </div>
-
-                            <div  class="collapse collapse4 mt-3" data-parent="#accordionexample">
-                                <div class="card card-body ">
-                                    <h5>Delivery Address</h5> ipsum dolor sit amet consectetur adipisicing elit. Porro enim laudantium facere ipsum veniam quibusdam perspiciatis cum eius rerum atque.
-                                </div>
+                            <div class="icon" data-toggle="collapse" data-target=".collapsedeliveryadd">
+                                <i class="fas fa-angle-right pl-3 "></i>
                             </div>
-
                         </div>
+                            <div class="collapse collapsedeliveryadd mt-3" data-parent="#profileaccordion">
+                                <div class="card card-body">
+                                    <h5>Delivery Address</h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro enim laudantium facere ipsum veniam quibusdam perspiciatis cum eius rerum atque.
+                                </div>
+                            </div>
                     </div>
-
+                    <!-- Delivery Address -->
                     <!-- Settings -->
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="row">
-
-                                <div class="col-10" data-toggle="collapse" data-target=".collapse5">
-                                    Settings
-                                </div>
-                                <div class="col-2" data-toggle="collapse" data-target=".collapse5">
-                                    <i class="fas fa-angle-right pl-3 "></i>
-                                </div>
+                    <div class="card-header">
+                        <div class="d-flex">
+                            <div class="flex-grow-1" data-toggle="collapse" data-target=".collapsesettings">
+                                Settings
                             </div>
-
-                            <div  class="collapse collapse5 mt-3" data-parent="#accordionexample">
-                                <div class="card card-body">
-                                    <h5>Settings</h5> ipsum dolor sit amet consectetur adipisicing elit. Porro enim laudantium facere ipsum veniam quibusdam perspiciatis cum eius rerum atque.
-                                </div>
+                            <div class="icon" data-toggle="collapse" data-target=".collapsesettings">
+                                <i class="fas fa-angle-right pl-3 "></i>
                             </div>
-
                         </div>
-                    </div>
-
-                    <!-- About us  -->
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="row">
-
-                                <div class="col-10" data-toggle="collapse" data-target=".collapse6">
-                                    About us
-                                </div>
-                                <div class="col-2" data-toggle="collapse" data-target=".collapse6">
-                                    <i class="fas fa-angle-right pl-3 "></i>
-                                </div>
-                            </div>
-
-                            <div  class="collapse collapse6 mt-3" data-parent="#accordionexample">
+                            <div class="collapse collapsesettings mt-3" data-parent="#profileaccordion">
                                 <div class="card card-body">
-                                    <h5>About us</h5> ipsum dolor sit amet consectetur adipisicing elit. Porro enim laudantium facere ipsum veniam quibusdam perspiciatis cum eius rerum atque.
+                                    <h5>Settings</h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro enim laudantium facere ipsum veniam quibusdam perspiciatis cum eius rerum atque.
                                 </div>
                             </div>
-
-                        </div>
                     </div>
-
+                    <!-- Settings -->
+                    <!-- About Us -->
+                    <div class="card-header">
+                        <div class="d-flex">
+                            <div class="flex-grow-1" data-toggle="collapse" data-target=".collapseabout">
+                                About Us
+                            </div>
+                            <div class="icon" data-toggle="collapse" data-target=".collapseabout">
+                                <i class="fas fa-angle-right pl-3 "></i>
+                            </div>
+                        </div>
+                            <div class="collapse collapseabout mt-3" data-parent="#profileaccordion">
+                                <div class="card card-body">
+                                    <h5>About Us</h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro enim laudantium facere ipsum veniam quibusdam perspiciatis cum eius rerum atque.
+                                </div>
+                            </div>
+                    </div>
+                    <!-- About Us -->
                     <!-- Support Center -->
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="row">
-
-                                <div class="col-10" data-toggle="collapse" data-target=".collapse7">
-                                    Support Center
-                                </div>
-                                <div class="col-2" data-toggle="collapse" data-target=".collapse7">
-                                    <i class="fas fa-angle-right pl-3 "></i>
-                                </div>
+                    <div class="card-header">
+                        <div class="d-flex">
+                            <div class="flex-grow-1" data-toggle="collapse" data-target=".collapsesupport">
+                                Support Center
                             </div>
-
-                            <div  class="collapse collapse7 mt-3" data-parent="#accordionexample">
+                            <div class="icon" data-toggle="collapse" data-target=".collapsesupport">
+                                <i class="fas fa-angle-right pl-3 "></i>
+                            </div>
+                        </div>
+                            <div class="collapse collapsesupport mt-3" data-parent="#profileaccordion">
                                 <div class="card card-body">
-                                    <h5>Support Center</h5> ipsum dolor sit amet consectetur adipisicing elit. Porro enim laudantium facere ipsum veniam quibusdam perspiciatis cum eius rerum atque.
+                                    <h5>Support Center</h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro enim laudantium facere ipsum veniam quibusdam perspiciatis cum eius rerum atque.
                                 </div>
                             </div>
-
-                        </div>
                     </div>
-
-                    <!-- logout -->
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="row">
-
-                                <div class="col-10 pl-1">
-                                <a href="#"><button class="btn">Logout</button></a>
-                                </div>
-                                <div class="col-2">
-                                    <a href="#"><button class="btn"><i class="fas fa-sign-out-alt"></i> </button></a>
-                                </div>
+                    <!-- Support Center -->
+                    <!-- Logout -->
+                    <div class="card-header">
+                        <a href="home.php">
+                        <div class="d-flex">
+                            <div class="flex-grow-1">
+                                Logout
                             </div>
-
-                            
+                            <div class="icon">
+                                <i class="fas fa-sign-out-alt"></i>
+                            </div>
                         </div>
+                        </a>    
                     </div>
-                  
-                </div>
+                    <!-- Logout -->
+                </div>  
             </div>
         </div>
+    </div>
+<!-- accordian section -->
 
-        <!-- Bottom Navigation -->
+<!-- Bottom Navigation -->
     <div class="row m-0 p-2 pt-3 fixed-bottom bottom-nav">
         <div class="col-4 col-md-4 mx-auto px-auto text-center">
-            <a href="home.php" class="active">
+            <a href="home.php">
                 <div class="row"> 
                     <i class="fas fa-home mx-auto"></i>
                 </div>
@@ -213,7 +174,7 @@
             </a>
         </div>
         <div class="col-4 col-md-4 mx-auto px-auto text-center">
-            <a href="home.php">
+            <a href="offer.php">
                 <div class="row"> 
                     <i class="fas fa-fire mx-auto"></i>
                 </div>
@@ -221,7 +182,7 @@
             </a>
         </div>
         <div class="col-4 col-md-4 mx-auto px-auto text-center">
-            <a href="home.php">
+            <a href="account.php" class="active">
                 <div class="row"> 
                     <i class="fas fa-user mx-auto"></i>
                 </div>
@@ -229,7 +190,7 @@
             </a>
         </div>
     </div>
-    <!-- Bottom Navigation -->
+<!-- Bottom Navigation -->
 
 </main>
         
