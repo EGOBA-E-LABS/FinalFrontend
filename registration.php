@@ -32,7 +32,7 @@
       </form>
     </div>
      
-    <div class="col-12 col-md-12 p-0 m-0 form-footer">
+    <div class="col-12 col-md-12 p-0 m-0 form-footer text-center fixed-bottom pb-1">
       Already have an account? <a href="login.php">Log in</a>
     </div>
   </div>
