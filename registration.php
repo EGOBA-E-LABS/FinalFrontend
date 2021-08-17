@@ -28,7 +28,7 @@
           <input type="text" class="form-control" placeholder="Phone">
         </div>
         <button type="submit" class="btn btn-pink btn-block">Sign up</button>
-        <small id="passwordHelpBlock" class="termsnconditions form-text text-muted">By clicking Sign up you agree to our <a href="#">Terms and Conditions</a> </small>      
+        <small id="passwordHelpBlock" class="termsnconditions form-text text-muted text-center">By clicking Sign up you agree to our <a href="#">Terms and Conditions</a> </small>      
       </form>
     </div>
      
