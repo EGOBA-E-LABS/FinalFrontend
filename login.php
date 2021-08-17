@@ -26,11 +26,11 @@
             </div>
           </div>
         </div>
-        <button type="submit" class="btn btn-pink btn-block">Log in</button>
+        <button type="submit" class="btn btn-pink btn-block btn-form">Log in</button>
       </form>
     </div>
 
-    <div class="col-12 col-md-12 p-0 m-0 form-footer">
+    <div class="col-12 col-md-12 p-0 m-0 pb-1 text-center form-footer fixed-bottom">
       Don't have an account? <a href="registration.php">Sign up</a>
     </div>
 

@@ -205,7 +205,7 @@
             </a>
         </div>
         <div class="col-4 col-md-4 mx-auto px-auto text-center">
-            <a href="home.php">
+            <a href="offer.php">
                 <div class="row"> 
                     <i class="fas fa-fire mx-auto"></i>
                 </div>
