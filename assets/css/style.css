@@ -183,3 +183,42 @@ input:focus, textarea:focus, select:focus{
   border-radius: 25px;
   border: 1px solid #707070;
 }
+
+/* account ko lagi css */
+.mainprofile{
+  background-color: #F9F9F9;
+}
+
+.img-container-pp{
+  height: 100px;
+  background-color:#707070;
+  border-radius: 50%;
+  width: 100px;
+
+}
+
+.img-container-pp img{
+  height: 100px;
+  object-fit: cover;
+  width: 100px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.accordion .card button{
+  border: none;
+}
+
+
+/* account ko lagi css */
+
+/* myorder ko lagi css */
+.offer-body{
+  height: 40vh;
+  
+}
+
+.offer-heading{
+  color: var(--default-color);
+}
+/* myorder ko lagi css */
