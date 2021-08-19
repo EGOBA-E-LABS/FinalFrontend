@@ -9,6 +9,7 @@ body{
 
 main .content{
   height: 100vh;
+  background-color: black;
 }
 
 .main-content{
@@ -291,3 +292,55 @@ div .card-header a{
 /* myorder ko lagi css */
 
 
+/* collection */
+
+.collection-img{
+  background-color: #707070;
+  height: 280px;
+  z-index: -2;
+}
+
+.collection-img img{
+  height: 280px;
+  z-index: -1;
+  object-fit: contain;
+}
+
+.overlap-head{
+  position: absolute;
+  top: 0;
+}
+
+.collection-container{
+  border-radius: 15px 15px 0px 0px;
+  background-color: white;
+}
+
+.collection-header h2{
+  color: white;
+  font-weight: bold;
+}
+
+.overlap-head i{
+  color: white;
+}
+
+.img-container-small-col{
+  background-color: #FAF0E6;
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+.img-container-small-col img{
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.card{
+  border: none;
+  background-color: #F9F9F9;
+}
+/* collection */

@@ -23,7 +23,6 @@
         <div class="col-12 col-md-12">  
             <div class="accordion" id="profileaccordion">
                 <div class="card">
-
                     <!-- Profile -->
                     <div class="card-header">
                         <div class="d-flex">
