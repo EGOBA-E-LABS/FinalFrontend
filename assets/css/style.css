@@ -294,28 +294,42 @@ div .card-header a{
 
 /* collection */
 
+.coll-bg{
+  background-color: #707070;
+}
+
 .collection-img{
   background-color: #707070;
   height: 280px;
-  z-index: -2;
+  z-index: 1;
 }
 
 .collection-img img{
   height: 280px;
-  z-index: -1;
+  z-index: 2;
   object-fit: contain;
 }
 
 .overlap-head{
-  position: absolute;
-  top: 0;
+  position: relative;
+  margin-top: -280px;
 }
 
 .collection-container{
-  border-radius: 15px 15px 0px 0px;
   background-color: white;
 }
 
+.collection-container .heading1{
+  background-color: white;
+  z-index: 7;
+  border-radius: 15px 0px 0px 0px;
+}
+
+.collection-container .heading2{
+  background-color: white;
+  z-index: 7;
+  border-radius: 0px 15px 0px 0px;
+}
 .collection-header h2{
   color: white;
   font-weight: bold;
