@@ -339,8 +339,24 @@ div .card-header a{
   object-fit: contain;
 }
 
-.card{
+.card-col{
+  border-radius: 10px;
   border: none;
   background-color: #F9F9F9;
+}
+
+.icon-col{
+  color: #707070;
+}
+
+.icon-col .red{
+  color: red;
+}
+
+.btn-pink-col{
+  border-radius: 15px;
+  border: none;
+  background-color: var(--default-color);
+  color: white;
 }
 /* collection */
