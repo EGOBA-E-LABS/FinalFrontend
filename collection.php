@@ -12,7 +12,7 @@
         <div class="pb-2"><h2>Burgers</h2></div>
       </div>
     </div>
-  </div>
+  </div>                   
 
   <!-- outside cover-->
   <div class="row pb-4 m-0 mt-n5 p-0 collection-container">
