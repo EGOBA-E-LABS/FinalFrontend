@@ -458,4 +458,18 @@ input:checked + label {
 .menu-list{
   background-color: #F9F9F9;
 }
+
+.res-title{
+  background-color: white;
+  display: none;
+}
+
+.fixed-checkout{
+  background: rgba(255, 255, 255, 0.8);
+  display: none;
+}
+
+.black{
+  color: black;
+}
 /*Restaurant Detail*/

@@ -3,7 +3,24 @@
 ?>
 
 <main class="content">
+  <div class="row m-0 p-0 fixed-top res-title shadow" id="fixedtitle">
 
+    <div class="col-12 col-md-12">
+      <div class="d-flex align-items-start flex-row">
+        <div class="mr-auto p-2">
+          <a href="home.php"><i class="fas fa-angle-left fa-2x black"></i></a>
+        </div>
+        <div class="p-2 mr-auto my-auto">
+          <h5 class="text-center d-flex-grow-1"> Really Cool </h5>
+        </div>
+        <div class="p-2">
+          <i class="fas fa-heart text-colored fa-2x align-items-end"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
   <div class="row m-0 p-0 collection-header">
     <div class="col-12 col-md-12 collection-img">
       <img src="assets/img/burger.png" class="img-fluid d-block px-0 mx-auto">
@@ -114,7 +131,73 @@
         </div>
         <!-- Menu Item 2 -->
 
-        <div class="col-12 col-md-12">
+        <!-- Menu Item 2 -->
+        <div class="col-12 col-md-4 pb-3">
+          <input id="potatowedges" type="checkbox" value="Potato Wedges" name="menu[]" />
+          <label for="potatowedges" class="p-4">
+            <div class="d-flex row">
+              <div class="flex-grow-1 pl-2 menu-item mr-4">
+                <h5>Potato Wedges</h5>
+                  <p>
+                    <small class="text-muted pr-1">Baked Half Fried Potatoes with skin served with Cocktail Sauce</small>
+                  </p>
+              </div>
+              <div class="d-flex flex-column icon-col">
+                <div class="p-2 ml-5">
+                  $15
+                </div>
+                <div class="p-2 ml-auto text-colored"><i class="fa fa-star"></i>Popular</div>
+              </div>
+            </div>
+          </label>
+        </div>
+        <!-- Menu Item 2 -->
+
+        <!-- Menu Item 2 -->
+        <div class="col-12 col-md-4 pb-3">
+          <input id="potatowedges" type="checkbox" value="Potato Wedges" name="menu[]" />
+          <label for="potatowedges" class="p-4">
+            <div class="d-flex row">
+              <div class="flex-grow-1 pl-2 menu-item mr-4">
+                <h5>Potato Wedges</h5>
+                  <p>
+                    <small class="text-muted pr-1">Baked Half Fried Potatoes with skin served with Cocktail Sauce</small>
+                  </p>
+              </div>
+              <div class="d-flex flex-column icon-col">
+                <div class="p-2 ml-5">
+                  $15
+                </div>
+                <div class="p-2 ml-auto text-colored"><i class="fa fa-star"></i>Popular</div>
+              </div>
+            </div>
+          </label>
+        </div>
+        <!-- Menu Item 2 -->
+
+        <!-- Menu Item 2 -->
+        <div class="col-12 col-md-4 pb-3">
+          <input id="potatowedges" type="checkbox" value="Potato Wedges" name="menu[]" />
+          <label for="potatowedges" class="p-4">
+            <div class="d-flex row">
+              <div class="flex-grow-1 pl-2 menu-item mr-4">
+                <h5>Potato Wedges</h5>
+                  <p>
+                    <small class="text-muted pr-1">Baked Half Fried Potatoes with skin served with Cocktail Sauce</small>
+                  </p>
+              </div>
+              <div class="d-flex flex-column icon-col">
+                <div class="p-2 ml-5">
+                  $15
+                </div>
+                <div class="p-2 ml-auto text-colored"><i class="fa fa-star"></i>Popular</div>
+              </div>
+            </div>
+          </label>
+        </div>
+        <!-- Menu Item 2 -->
+
+        <div class="col-12 col-md-12 fixed-bottom fixed-checkout pb-2 pt-1">
             <div class="d-flex align-items-center">
                 <button class="btn btn-pink-col px-5 mx-auto" type="submit" name="btn_add_to_cart">
                 Add to basket               
