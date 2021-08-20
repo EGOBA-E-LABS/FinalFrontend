@@ -8,7 +8,7 @@
     <div class="col-12 col-md-12 collection-img">
       <img src="assets/img/burger.png" class="img-fluid d-block px-0 mx-auto">
       <div class="d-flex align-items-start flex-column overlap-head" style="height: 245px;">
-        <div class="mb-auto"><a href=""><i class="fas fa-angle-left fa-2x pt-3"></i></a></div>
+        <div class="mb-auto"><a href="home.php"><i class="fas fa-angle-left fa-2x pt-3"></i></a></div>
         <div class="pb-2"><h2>Burgers</h2></div>
       </div>
     </div>
