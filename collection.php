@@ -8,7 +8,7 @@
     <div class="col-12 col-md-12 collection-img">
       <img src="assets/img/burger.png" class="img-fluid d-block px-0 mx-auto">
       <div class="d-flex align-items-start flex-column overlap-head" style="height: 245px;">
-        <div class="mb-auto"><i class="fas fa-angle-left fa-2x pt-3"></i></div>
+        <div class="mb-auto"><a href="home.php"><i class="fas fa-angle-left fa-2x pt-3"></i></a></div>
         <div class="pb-2"><h2>Burgers</h2></div>
       </div>
     </div>
@@ -16,18 +16,13 @@
 
   <!-- outside cover-->
   <div class="row pb-4 m-0 mt-n5 p-0 collection-container">
-    <div class="col-9 col-md-10 col-lg-11 pt-3 text-muted">
+    <div class="col-9 col-md-10 col-lg-11 pt-3 text-muted heading1">
       128 restaurants
     </div>
-      <div class="col-3 col-md-2 col-lg-1 pt-3 pl-4">
+      <div class="col-3 col-md-2 col-lg-1 pt-3 pl-4 heading2">
         <i class="fas fa-align-left text-colored fa-2x pl-4"></i>
       </div>
-  </div>
-  <!-- outside cover end -->
-
-  <!-- inside card -->
-  <div class="row m-0 p-0">
-    <!-- card 1 -->
+ 
     <div class="col-12 col-md-6 col-lg-4">
       <div class="d-flex card-col p-2 mb-3">
         <div class="align-self-center">
