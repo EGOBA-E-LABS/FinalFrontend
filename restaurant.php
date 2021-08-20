@@ -50,6 +50,22 @@
   </div>
 
 <!-- Menu -->
+  <div class="row m-0 p-0 res-menu pb-3">
+    <div class="col-12 col-md-12 pl-4 pr-0 m-0 py-2">
+    <b>Popular Choices</b>
+      <section class="h-slider">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="img-container-small d-flex align-items-center justify-content-center">
+              <img src="assets/img/offer.png">
+            </div>
+            <p>Offers</p>
+          </div>
+        </div>
+      </section>
+    </div>
+</div>
+
   <form class="row mx-auto menu-list pb-3" method="POST" action="test.php">
         <div class="col-12 col-md-12 px-1">
             <h6 class="pl-4">Starter</h6>
