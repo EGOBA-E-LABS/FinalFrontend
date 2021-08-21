@@ -1,9 +1,9 @@
 <?php
 include("header.php");
 ?>
-<main >
+<main>
     <!-- delivery address field -->
-    <div class="checkout-addressfield">
+    <div class="checkout-addressfield" id="checkoutaddress">
         <div class="row mt-4 m-0 checkout-border-btm">
             <div class="col-4 col-lg-5 col-md-5 pl-0">
                 <a href="#"><i class="fas fa-angle-left fa-2x pl-3"></i></a>
@@ -73,7 +73,7 @@ include("header.php");
             Enter Coupon
         </div>
         <div class="col-4  col-lg-2 col-md-3 text-colored">
-           <strong>HUNGRY10</strong> 
+            <strong>HUNGRY10</strong>
         </div>
     </div>
 
@@ -86,7 +86,7 @@ include("header.php");
 
                 </div>
                 <div>
-                   <strong> $64.00</strong>
+                    <strong> $64.00</strong>
                 </div>
             </div>
             <div class="d-flex py-1">
@@ -95,7 +95,7 @@ include("header.php");
 
                 </div>
                 <div>
-                   <strong> Free</strong>
+                    <strong> Free</strong>
                 </div>
             </div>
             <div class="d-flex py-1 pb-3 checkout-border-btm-thin">
@@ -104,7 +104,7 @@ include("header.php");
 
                 </div>
                 <div>
-                   <strong> -$6.4</strong>
+                    <strong> -$6.4</strong>
                 </div>
             </div>
             <div class="d-flex py-1">
@@ -113,10 +113,10 @@ include("header.php");
 
                 </div>
                 <div class="text-colored">
-                   <strong> $57.60</strong>
+                    <strong> $57.60</strong>
                 </div>
             </div>
-        </div>   
+        </div>
 
     </div>
 
@@ -124,13 +124,61 @@ include("header.php");
 
     <div class="row  p-0 m-0 my-5">
         <div class="col ">
-            <a href="checkout.php"><button class="btn checkout-btn">Send Order</button></a>
+           <!-- <a href="" id="toggle"><button class="btn checkout-btn" >Send Order</button></a>  -->
+           <button class="btn checkout-btn"  id="toggle">Send Order</button>
 
         </div>
 
     </div>
 
+    <!-- order confirm section -->
+    <div class="row oconfirm m-0 " id="oconfirm" style="display:none;">
+        <div class="col-12 col-md-12">
+            <div class="d-flex-column mt-5">
+                <div class="text-center">
+                    <img src="assets/img/oconfirmimg.png" alt="">
+
+                </div>
+
+                <div class="col-8 mx-auto text-center  my-4">
+                    <h5>Thank you for</h5>
+                    <p>
+                        <small class="text-muted">You can track the delivery in the "Orders" section</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- buttons -->
+        <div class="col-12  ">
+            <a href="checkout.php"><button class="btn checkout-btn my-3">Track my order </button></a>
+            <a href="checkout.php"><button class="btn oconfirm-btn">Order something else</button></a>
+
+        </div>
+
+    </div>
+
+
+
 </main>
+
+<script>
+const targetDiv = document.getElementById("oconfirm");
+const targetDiv1 = document.getElementById("checkoutaddress");
+console.log(targetDiv);
+const btn = document.getElementById("toggle");
+btn.onclick = function() {
+    if (targetDiv.style.display !== "none") {
+        targetDiv.style.display = "none";
+    } else {
+        targetDiv.style.display = "block";
+        targetDiv1.style.background = "#707070";
+    }
+
+
+};
+
+
+</script>
 
 <?php
 include("footer.php");

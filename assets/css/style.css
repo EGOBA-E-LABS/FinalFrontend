@@ -428,6 +428,25 @@ div .card-header a{
   border-bottom: 2px solid #F9F9F9 ;
 }
 
+#oconfirm{
+  position:absolute;
+  top: 20%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 18px 18px 0px 0px;
+  height: 100vh;
+  z-index: 2;
+  width: 100%;
+  display: none;
+  transition-timing-function: ease-out;
+}
+
+.oconfirm-btn{
+  border-radius: 23px;
+  width: 100%;
+}
+
+
+
 /* checkout */
 
 /*Restaurant Detail*/
