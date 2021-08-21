@@ -137,7 +137,7 @@ input:focus, textarea:focus, select:focus{
 
 .search-icon{
   border-radius: 25px;
-  background-color: white;
+  background-color: #F8F8F8;
   border-right: none;
 }
 
@@ -271,10 +271,8 @@ input:focus, textarea:focus, select:focus{
 }
 
 .accordion .card .card-header{
-  border-bottom: 3px solid #F9F9F9;
+  border-bottom: 3px solid #D8D8D8;
 }
-
-
 
 div .card-header a{
   color: black;
@@ -570,3 +568,20 @@ textarea#deliveryadd{
   border-radius: 10px;
 }
 
+
+/*Support*/
+input[type="text"].search-bar{
+  background-color : #F8F8F8; 
+}
+
+.bg-lightgrey{
+  background-color: #F8F8F8;
+}
+
+.card-chat{
+  background-color: white;
+}
+
+.btn-chat:focus, hover{
+  outline: none;
+}
