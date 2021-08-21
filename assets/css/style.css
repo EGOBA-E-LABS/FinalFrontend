@@ -137,7 +137,7 @@ input:focus, textarea:focus, select:focus{
 
 .search-icon{
   border-radius: 25px;
-  background-color: white;
+  background-color: #F8F8F8;
   border-right: none;
 }
 
@@ -271,10 +271,8 @@ input:focus, textarea:focus, select:focus{
 }
 
 .accordion .card .card-header{
-  border-bottom: 3px solid #F9F9F9;
+  border-bottom: 3px solid #D8D8D8;
 }
-
-
 
 div .card-header a{
   color: black;
@@ -310,7 +308,6 @@ div .card-header a{
 
 .food{
   border-bottom: 1.5px solid #D8D8D8;
-  
 } 
 
 
@@ -420,34 +417,6 @@ div .card-header a{
 /* collection */
 
 
-/* checkout */
-.checkout-border-btm{
-  border-bottom: 15px solid #F9F9F9 ;
-}
-.checkout-border-btm-thin{
-  border-bottom: 2px solid #F9F9F9 ;
-}
-
-#oconfirm{
-  position:absolute;
-  top: 20%;
-  background-color: rgb(255, 255, 255);
-  border-radius: 18px 18px 0px 0px;
-  height: 100vh;
-  z-index: 2;
-  width: 100%;
-  display: none;
-  transition-timing-function: ease-out;
-}
-
-.oconfirm-btn{
-  border-radius: 23px;
-  width: 100%;
-}
-
-
-
-/* checkout */
 
 /*Restaurant Detail*/
 .res-menu{
@@ -477,7 +446,146 @@ input:checked + label {
 .menu-list{
   background-color: #F9F9F9;
 }
+
+.res-title{
+  background-color: white;
+  display: none;
+}
+
+.fixed-checkout{
+  background: rgba(255, 255, 255, 0.8);
+  display: none;
+}
+
+.black{
+  color: black;
+}
+
+
+
 /*Restaurant Detail*/
+
+/* myorder ko lagi css */
+.offer-body{
+  height: 40vh;
+  
+}
+
+.offer-heading{
+  color: var(--default-color);
+}
+.myorder-img-container{
+  background-color: #BEC2CE;
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+}
+.myorder-img-container img{
+  
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.fooditem{
+  background-color: #F9F9F9;
+}
+
+.food{
+  border-bottom: 1.5px solid #D8D8D8;
+} 
+
+
+.noborder{
+  border: none;
+} 
+
+.checkout-btn{
+  background-color: #EF5B5B;
+  color: white;
+  border-radius: 23px;
+  width: 100%;
+}
+
+.addnote-btn{
+  cursor: pointer;
+}
+
+.menu-group input[type=text] {
+  border: none;
+  background-color: transparent;
+  margin-right: 0%;
+  text-align: right;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+/* checkout */
+.checkout-border-btm{
+  border-bottom: 15px solid #F9F9F9 ;
+}
+.checkout-border-btm-thin{
+  border-bottom: 2px solid #F9F9F9 ;
+}
+.content-empty{
+  height: 100vh;
+  background-color: #F9F9F9;
+}
+.white-bg{
+  background-color: white;
+}
+/* checkout */
+
+textarea#deliveryadd{
+  resize: none;
+  border: none;
+  background: transparent;
+}
+
+.bold{
+  font-weight: bold;
+  text-align: right;
+}
+
+.bold-total{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+     
+.payment-card input[type=radio] {
+  display: none;
+}
+  
+.payment-card input[type="radio"]:checked+label {
+  color: #EF5B5B;
+}
+
+.payment-card label{
+  display:block;
+  background-color: #F8F8F8;
+  border-radius: 10px;
+}
+
+
+/*Support*/
+input[type="text"].search-bar{
+  background-color : #F8F8F8; 
+}
+
+.bg-lightgrey{
+  background-color: #F8F8F8;
+}
+
+.card-chat{
+  background-color: white;
+}
+
+.btn-chat:focus, hover{
+  outline: none;
+}
+
 
 /* trackorder */
 .to-img-container{
@@ -505,3 +613,5 @@ input:checked + label {
 
 
 /* trackorder */
+
+
