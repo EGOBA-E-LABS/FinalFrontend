@@ -1,0 +1,26 @@
+/* trackorder */
+.to-img-container{
+  background-color: #FAF0E6;
+  border-radius: 10px;
+  width: 40px;
+  height: 60px;
+  
+}
+.to-img-container img{
+  object-fit: contain;
+  border-radius: 10px;
+  width: 40px;
+  height: 60px;
+  
+}
+
+.toprogress{
+  background-color: #F9F9F9;
+}
+
+.toprogress .active {
+  color: var(--default-color);
+}
+
+
+/* trackorder */
