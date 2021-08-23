@@ -27,7 +27,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
     <script>
-
       $(window).scroll(function() {
         if ($(this).scrollTop()>250){
             $('#fixedtitle').show();
@@ -40,6 +39,13 @@
 
       });
 
+      $(document).ready(function(){
+        $("form").submit(function(){
+          $(".oconfirm").show();
+          $("body").scrollTop(0);
+          $("body").css("overflow","hidden");
+        });
+      });
     </script>
 
     <title>Happy Meals</title>

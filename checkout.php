@@ -151,10 +151,8 @@ include("header.php");
         <!-- buttons -->
         <div class="col-12  ">
             <a href="checkout.php"><button class="btn checkout-btn my-3">Track my order </button></a>
-            <a href="checkout.php"><button class="btn oconfirm-btn">Order something else</button></a>
-
+            <a href="checkout.php"><button class="btn oconfirm-btn btn-block">Order something else</button></a>
         </div>
-
     </div>
 
 

@@ -326,10 +326,6 @@ div .card-header a{
   cursor: pointer;
 }
 
-  
-
-
-
 /* myorder ko lagi css */
 
 
@@ -568,7 +564,25 @@ textarea#deliveryadd{
   border-radius: 10px;
 }
 
+.oconfirm{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    /*display: none;*/
+    background-color:rgba(0, 0, 0, 0.4);
+}
 
+.oconfirm-bg{
+  border-radius: 15px 15px 0 0;
+  background: white;
+  height: 75vh;
+}
+
+.blacklayout{
+  height: 25vh;
+}
 /*Support*/
 input[type="text"].search-bar{
   background-color : #F8F8F8; 
@@ -615,3 +629,6 @@ input[type="text"].search-bar{
 /* trackorder */
 
 
+.mycontent-left {
+  border-right: 1px dashed #333;
+}

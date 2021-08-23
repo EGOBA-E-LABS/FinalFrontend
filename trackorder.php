@@ -24,8 +24,8 @@ include("header.php")
     </div>
     <!--Rider detail  section  -->
     <div class="row torider m-0 mt-4">
-        <div class="col-2  col-md-1 ml-4 to-img-container">
-            <img class="px-0" src="assets/img/offer.png" alt="">
+        <div class="col-2 col-md-1 ml-4 to-img-container">
+            <img class="px-0" src="assets/img/offer.png" wi alt="">
         </div>
         <div class="col-5 col-md-8">
             <p class="my-0"><small>Your Rider</small> </p>
@@ -40,10 +40,10 @@ include("header.php")
 
     <!-- progress bar -->
     <div class="row toprogress m-0 mt-4 py-4">
-        <div class="col-12 pl-5 ">
+        <div class="col-12 pl-5">
             <div class="d-flex py-3">
                 <div>
-                    <i class="fas fa-circle"></i>
+                    <i class="fas fa-circle vl"></i>
                 </div>
 
                 <div class="flex-grow-1 ml-4">
@@ -53,7 +53,7 @@ include("header.php")
 
             <div class="d-flex py-3">
                 <div>
-                    <i class="fas fa-circle"></i>
+                    <i class="fas fa-circle vl"></i>
                 </div>
 
                 <div class="flex-grow-1 ml-4">
@@ -63,7 +63,7 @@ include("header.php")
 
             <div class="d-flex py-3">
                 <div>
-                    <i class="fas fa-circle"></i>
+                    <i class="fas fa-circle vl"></i>
                 </div>
 
                 <div class="flex-grow-1 ml-4">
@@ -73,7 +73,7 @@ include("header.php")
 
             <div class="d-flex py-3">
                 <div>
-                    <i class="fas fa-circle active"></i>
+                    <i class="fas fa-circle vl active"></i>
                 </div>
 
                 <div class="flex-grow-1 ml-4  active">
@@ -98,12 +98,20 @@ include("header.php")
 
     <div class="col-12 my-5 ">
 
-        <a href="checkout.php"><button class="btn oconfirm-btn">Cancel Your Order</button></a>
+        <a href="checkout.php"><button class="btn oconfirm-btn btn-block">Cancel Your Order</button></a>
 
     </div>
 
-
-
+<div class="row">
+  <div class="span6">
+    <div class="mycontent-left">
+    </div>
+  </div>
+  <div class="span6">
+    <div class="mycontent-right">
+    </div>
+  </div>
+</div>
 
 </main>
 

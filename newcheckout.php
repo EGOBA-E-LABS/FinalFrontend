@@ -14,12 +14,12 @@ include("header.php");
     </div>
 
     <!-- myorder food items -->
-    <form class="row m-0 p-0 px-2 form-group menu-group" method="POST" action="Test1.php">
+    <form class="row m-0 p-0 px-2 form-group menu-group" method="POST" id="checkout-form">
         <div class="col-12 col-md-12 white-bg mb-3">
                <div class="d-flex flex-row mb-3 menus">
                   <div class="flex-grow-1">
                     <small><p class="mb-2">Delivery Address</p></small>
-                      <textarea class="address-text pt-0 ml-0 mt-0" id="deliveryadd" rows="2" value="123,Ktm,Maitidevi" readonly>123,Ktm,Maitidevi
+                      <textarea class="address-text pt-0 ml-0 mt-0" id="deliveryadd" rows="2" value="123,Ktm,Maitidevi">123,Ktm,Maitidevi
                       </textarea> 
                   </div>
                   <div class="m-0 pl-auto pt-4">
@@ -133,12 +133,45 @@ include("header.php");
             </div>
         </div>
         <div class="col-12 col-md-12 white-bg py-4">
-            <button class="btn checkout-btn" type="submit" name="btn_checkout">Send Order</button>
+            <button class="btn checkout-btn" type="submit" name="btn_checkout" id="btnanimate">Send Order</button>
         </div>
 
     </form>
+   <!--  <button id="btnanimate">
+      show
+    </button> -->
+
+    <!-- order confirm section -->
+    <section class="oconfirm">
+    <div class="row m-0">
+        <div class="col-12 col-md-12 col-lg-12 blacklayout">
+        </div>
+      </div>
+      <div class="row m-0 oconfirm-bg">
+        <div class="col-12 col-md-12 col-lg-12">
+            <div class="d-flex-column mt-5">
+                <div class="text-center pt-3">
+                    <img src="assets/img/oconfirmimg.png" alt="">
+                </div>
+
+                <div class="col-8 mx-auto text-center  my-4">
+                    <h5 class="text-colored">Thank you for</h5>
+                    <p>
+                        <small class="text-muted">You can track the delivery in the "Orders" section</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- buttons -->
+        <div class="col-12 pb-4">
+            <a href="checkout.php"><button class="btn checkout-btn my-3">Track my order </button></a>
+            <a href="checkout.php"><button class="btn oconfirm-btn btn-block">Order something else</button></a>
+        </div>
+    </div>
+  </section>
 
 </main>
+
 
 <?php
 include("footer.php");
