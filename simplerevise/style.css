@@ -39,7 +39,7 @@
 
 .star-rating input:not(:checked)~label:hover,
 .star-rating input:not(:checked)~label:hover~label {
-    color: #ffc107;
+    color:black;
 }
 
 .star-rating input:checked~label {

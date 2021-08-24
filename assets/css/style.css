@@ -637,3 +637,6 @@ input[type="text"].search-bar{
   display: none;
 }
 
+.nopwal{
+  display: none;
+}

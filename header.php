@@ -68,6 +68,18 @@
         });
       });
 
+      $(document).ready(function(){
+        $(".pwal").click(function(){
+          $(".nopwal").show();
+          $(".pwal").hide();
+        });
+      });
+      $(document).ready(function(){
+        $(".nopwal").click(function(){
+          $(".pwal").show();
+          $(".nopwal").hide();
+        });
+      });
     </script>
 
     <title>Happy Meals</title>

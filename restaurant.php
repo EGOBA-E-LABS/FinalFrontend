@@ -14,7 +14,9 @@
           <h5 class="text-center d-flex-grow-1"> Really Cool </h5>
         </div>
         <div class="p-2">
-          <i class="fas fa-heart text-colored fa-2x align-items-end"></i>
+        <span class="pwal"><i class="far fa-heart fa-2x "></i></span>
+        <span class="nopwal"><i class="fas  fa-heart text-colored fa-2x align-items-end"></i></span>
+          
         </div>
       </div>
     </div>
@@ -36,7 +38,8 @@
       <h3 class="text-colored"> Really Cool</h3>
     </div>
       <div class="col-3 col-md-2 col-lg-1 pt-3 pl-4 heading2">
-        <i class="fas fa-heart text-colored fa-2x pl-4"></i>
+      <span class="pwal"><i class="far fa-heart fa-2x pl-4"></i></span>
+        <span class="nopwal"><i class="fas fa-heart text-colored fa-2x pl-4"></i></span>
       </div>
  
     <div class="col-12 col-md-12 col-lg-12 pt-5">
