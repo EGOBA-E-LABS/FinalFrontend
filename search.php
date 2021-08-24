@@ -7,7 +7,6 @@ include("header.php");
     <div class="row m-0 mt-3">
         <div class="col-1 pt-1 pl-1 pr-0">
             <a href=""><i class="fas fa-angle-left fa-2x"></i></a>
-
         </div>
 
         <div class="col-10 col-md-10 col-sm-10 pl-0">
@@ -21,7 +20,7 @@ include("header.php");
             </div>
         </div>
 
-        <div class="col-1 p-0 pt-1">
+        <div class="col-1 p-0 pt-1" data-toggle="collapse" data-target="#searchbox">
             <i class="fas fa-times fa-2x"></i>
         </div>
     </div>

@@ -632,3 +632,8 @@ input[type="text"].search-bar{
 .mycontent-left {
   border-right: 1px dashed #333;
 }
+
+.search-box{
+  display: none;
+}
+

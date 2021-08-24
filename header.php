@@ -46,6 +46,28 @@
           $("body").css("overflow","hidden");
         });
       });
+
+      $(document).ready(function(){
+        $("#search-click").click(function(){
+          $(".welcomepage").hide();
+          $(".search-box").show();
+        });
+      });
+
+      $(document).ready(function(){
+        $("#searchbar-click").focus(function(){
+          $(".welcomepage").hide();
+          $(".search-box").show();
+        });
+      });
+
+      $(document).ready(function(){
+        $("#backtowelcome").focus(function(){
+          $(".welcomepage").show();
+          $(".search-box").hide();
+        });
+      });
+
     </script>
 
     <title>Happy Meals</title>
