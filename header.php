@@ -28,7 +28,7 @@
 
     <script>
       $(window).scroll(function() {
-        if ($(this).scrollTop()>250){
+        if ($(this).scrollTop()>80){
             $('#fixedtitle').show();
             $('.fixed-checkout').show();
       }
